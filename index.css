@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('images/background.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body > div{
+    display: grid;
+    place-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+body > div > p{
+    font-size: 10em;
+    color: transparent;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(540deg, #26b8e7, #4da2f5, #9617ff);
+    background-clip: text;
+    /* text-shadow: 0 0 3px #9617ff; */
+}
+
+a{
+    display: flex;
+    place-content: center;
+    text-decoration: none;
+}
+
+button{
+    width: 325px;
+    height: 50px;
+    background: transparent;
+    font-size: 3em;
+    font-family: sans-serif;
+    color: transparent;
+    font-family: sans-serif;
+    font-weight: bolder;
+    background-image: linear-gradient(540deg, #26b8e7, #4da2f5, #9617ff);
+    background-clip: text;
+    font-weight: bolder;
+    box-shadow: 0 0 3px #9617ff;
+    border: 2px solid #9617ff;
+}
+
+button:hover {
+    background: url('images/button-background.jpg'), #9617ff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+    box-shadow: none;
+    background-blend-mode: multiply;
+    color: #9617ff;
+    text-shadow: -1px 1px 0 #000,
+    1px 1px 0 #000,
+    1px -1px 0 #000,
+    -1px -1px 0 #000;
+}
