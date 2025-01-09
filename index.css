@@ -6,7 +6,7 @@
 }
 
 body{
-    background-image: url('images/background.jpg');
+    background-image: url('background.jpg');
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,7 +52,7 @@ button{
 }
 
 button:hover {
-    background: url('images/button-background.jpg'), #9617ff;
+    background: url('button-background.jpg'), #9617ff;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
